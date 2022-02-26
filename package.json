@@ -4,7 +4,10 @@
   "description": "Express app with https",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "generate:key": "node ./scripts/gkey.js",
+    "add:user": "node ./scripts/adduser.js",
+    "all": "npm run generate:key && npm run add:user && npm start"
   },
   "keywords": [],
   "author": "Subhadip Ghosh",

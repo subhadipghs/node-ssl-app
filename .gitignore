@@ -1,3 +1,5 @@
-keys
-
+keys/*
 node_modules
+.swp.*
+*.swp
+*.log
